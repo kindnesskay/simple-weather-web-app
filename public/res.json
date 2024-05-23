@@ -1,0 +1,106 @@
+{
+  "location": {
+    "name": "London",
+    "region": "City of London, Greater London",
+    "country": "United Kingdom",
+    "lat": 51.52,
+    "lon": -0.11,
+    "tz_id": "Europe/London",
+    "localtime_epoch": 1716430592,
+    "localtime": "2024-05-23 3:16"
+  },
+  "current": {
+    "temp_c": 12.0,
+    "temp_f": 53.6,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+      "code": 1003
+    },
+    "wind_kph": 11.2,
+    "wind_dir": "SW",
+    "humidity": 94,
+    "vis_km": 10.0,
+    "uv": 1.0,
+    "gust_kph": 21.1
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2024-05-23",
+        "date_epoch": 1716422400,
+        "day": {
+          "maxtemp_c": 17.7,
+          "maxtemp_f": 63.9,
+          "mintemp_c": 10.6,
+          "mintemp_f": 51.0,
+          "avgtemp_c": 13.5,
+          "avgtemp_f": 56.2,
+          "maxwind_mph": 12.3,
+          "maxwind_kph": 19.8,
+          "totalprecip_mm": 0.02,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 10.0,
+          "avgvis_miles": 6.0,
+          "avghumidity": 72,
+          "condition": {
+            "text": "Overcast ",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+            "code": 1009
+          },
+          "uv": 4.0
+        }
+      },
+      {
+        "date": "2024-05-24",
+        "date_epoch": 1716508800,
+        "day": {
+          "maxtemp_c": 19.6,
+          "maxtemp_f": 67.3,
+          "mintemp_c": 8.4,
+          "mintemp_f": 47.1,
+          "avgtemp_c": 14.0,
+          "avgtemp_f": 57.1,
+          "maxwind_mph": 5.1,
+          "maxwind_kph": 8.3,
+          "totalprecip_mm": 0.18,
+          "totalprecip_in": 0.01,
+          "avgvis_km": 10.0,
+          "avgvis_miles": 6.0,
+          "avghumidity": 65,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 5.0
+        }
+      },
+      {
+        "date": "2024-05-25",
+        "date_epoch": 1716595200,
+        "day": {
+          "maxtemp_c": 19.9,
+          "maxtemp_f": 67.9,
+          "mintemp_c": 9.7,
+          "mintemp_f": 49.5,
+          "avgtemp_c": 14.8,
+          "avgtemp_f": 58.7,
+          "maxwind_mph": 7.8,
+          "maxwind_kph": 12.6,
+          "totalprecip_mm": 0.23,
+          "totalprecip_in": 0.01,
+          "avgvis_km": 10.0,
+          "avgvis_miles": 6.0,
+          "avghumidity": 72,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 6.0
+        }
+      }
+    ]
+  }
+}
