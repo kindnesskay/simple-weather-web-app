@@ -92,11 +92,11 @@ export default function App() {
   }, []);
 
   return (
-    <section className="min-h-screen w-full flex flex-col items-center">
+    <section className="min-h-screen w-full flex flex-col items-center ">
       <div className="main-container items-center  max-width">
         <TopBar temp={temp} setTemp={setTemp} />
         <div className="max-lg:flex-col gap-8 h-full w-fit flex">
-          <div className="flex-1 flex justify-center  mr-auto ml-auto w-full ">
+          <div className="flex-1 flex justify-center  mr-auto ml-auto  w-full px-2">
             <Pannel data={pannelData} handleSearch={fetchData} temp={temp} />
           </div>
           <div className="w-fit flex flex-col gap-8 h-fit mr-auto ml-auto ">

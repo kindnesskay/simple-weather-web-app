@@ -11,7 +11,7 @@ export default function SearchField({ getValue }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-lg h-16 p-2 flex text-2xl overflow-hidden"
+      className="w-full max-w-lg h-12 p-2 flex text-2xl overflow-hidden bg-white rounded-2xl"
     >
       <input
         className="pl-2 h-full w-full flex-1 rounded-l-xl"

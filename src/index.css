@@ -36,3 +36,11 @@ p {
   -webkit-backdrop-filter: blur(9.5px);
   border: 1px solid rgba(255, 255, 255, 1);
 }
+.test {
+  width: clamp();
+}
+@media screen and (max-width: 600px) {
+  .w {
+    width: calc(100vw - 20px);
+  }
+}
