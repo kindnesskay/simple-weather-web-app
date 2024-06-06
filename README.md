@@ -1,1 +1,1 @@
-# day 2 weather web app
+# weather web app
