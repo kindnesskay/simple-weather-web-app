@@ -1,0 +1,28 @@
+name: Deploy weather app to Git hub pages
+
+on:
+  push:
+    branches: -main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-nodejs@v2
+        with:
+          node-vesion: "20"
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build
+
+      - name: Deploy to github pages
+        uses: peaceiris/action-gh-pages@v3
+        with:
+          githun_token: ${{secrets.GITHUB_TOKEN}}
+          publish_dir: ./build
