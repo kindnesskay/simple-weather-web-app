@@ -43,38 +43,38 @@ export default function App() {
           {
             text: "Humidity",
             value: current.humidity,
-            image: "https://asset.cloudinary.com/dldvoo6qb/155ed29f58fa41928737fa788bfc003f",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239612/humidity_poqmnv.png",
             measure: "",
           },
           {
             text: "Visibility",
             value: current.vis_km,
-            image: "https://asset.cloudinary.com/dldvoo6qb/3cb8f596e854259761c0cf7633b1b628",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239613/visibility_ylon6y.png",
             measure: "km",
           },
 
           {
             text: "Wind Direction",
             value: current.wind_dir,
-            image: "https://asset.cloudinary.com/dldvoo6qb/fc02f8b3b0fe767664cac55e572c38c1",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239613/wind-direction_gem1vq.png",
             measure: "",
           },
           {
             text: "Wind Status",
             value: current.wind_kph,
-            image: "https://asset.cloudinary.com/dldvoo6qb/719020e16183b485daa8440ece8e9205",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239612/windspeed_ny43jm.png",
             measure: "kph",
           },
           {
             text: "Gust Status",
             value: current.gust_kph,
-            image: "https://asset.cloudinary.com/dldvoo6qb/95ce8dfa309bb2ec5746eef70fd805f1",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239612/gust_uswb18.png",
             measure: "kph",
           },
           {
             text: "Uv status",
             value: current.uv,
-            image: "https://asset.cloudinary.com/dldvoo6qb/603e5f60d07ab2779bafb87959aebced",
+            image: "https://res.cloudinary.com/dldvoo6qb/image/upload/v1722239612/uv_geu2cg.png",
             measure: "",
           },
         ];
