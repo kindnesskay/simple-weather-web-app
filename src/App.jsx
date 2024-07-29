@@ -43,7 +43,7 @@ export default function App() {
           {
             text: "Humidity",
             value: current.humidity,
-            image: "/https://asset.cloudinary.com/dldvoo6qb/155ed29f58fa41928737fa788bfc003f",
+            image: "https://asset.cloudinary.com/dldvoo6qb/155ed29f58fa41928737fa788bfc003f",
             measure: "",
           },
           {
@@ -56,19 +56,19 @@ export default function App() {
           {
             text: "Wind Direction",
             value: current.wind_dir,
-            image: "/https://asset.cloudinary.com/dldvoo6qb/fc02f8b3b0fe767664cac55e572c38c1",
+            image: "https://asset.cloudinary.com/dldvoo6qb/fc02f8b3b0fe767664cac55e572c38c1",
             measure: "",
           },
           {
             text: "Wind Status",
             value: current.wind_kph,
-            image: "/https://asset.cloudinary.com/dldvoo6qb/719020e16183b485daa8440ece8e9205",
+            image: "https://asset.cloudinary.com/dldvoo6qb/719020e16183b485daa8440ece8e9205",
             measure: "kph",
           },
           {
             text: "Gust Status",
             value: current.gust_kph,
-            image: "/https://asset.cloudinary.com/dldvoo6qb/95ce8dfa309bb2ec5746eef70fd805f1",
+            image: "https://asset.cloudinary.com/dldvoo6qb/95ce8dfa309bb2ec5746eef70fd805f1",
             measure: "kph",
           },
           {
